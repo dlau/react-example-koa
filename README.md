@@ -1,3 +1,5 @@
+##note: react 0.9 renderComponentToString is synchronous, update me and remove this line when it lands
+
 Example of a general react.js work flow/build process using koa to serve pages
 
 Jade is used as the templating engine, you can mix and match any engine that is compatible with `co-views`
