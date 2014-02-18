@@ -5,7 +5,7 @@ var react = require('gulp-react');
 
 
 gulp.task('browserify', function(){
-  gulp.src('components/*.js')
+  gulp.src('pagejs/*.js')
     .pipe(browserify({
       transform : ['reactify']
     }))
