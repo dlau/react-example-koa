@@ -18,20 +18,16 @@ This is meant to serve as a more concrete real world type example where the jsx 
 You will need node 0.11.x to run this with either the `harmony` flag or `harmony-generators` flag enabled
 
 ##Directory structure:
-  - components/               [D]
-   |  counter.js                 
-   |  counter.jsx                
-  - pagejs/                   [D]
-   |  index.js                   
-  - public/                   [D]
-   |- js/                     [D]
-    |  index.js                  
-  - views/                    [D]
-   |  index.jade                 
-    README.md                    
-    gulpfile.js                  
-    index.js                     
-    package.json             
+  - components/
+   -  counter.js                 
+   -  counter.jsx                
+  - pagejs/
+   -  index.js                   
+  - public/
+   - js/
+    -  index.js                  
+  - views/
+   -  index.jade                 
 
 - components : houses the react components, these are shared between client and server. The *.jsx files are built to the corresponding .js file
 - public : these are the static files
