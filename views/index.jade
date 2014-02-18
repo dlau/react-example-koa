@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+  body
+    h1 This is a static header!
+    #container
+      !{container.counter}
+    script(type='text/javascript').
+      window.c = !{JSON.stringify(metadata.counter)};
+    script(type='text/javascript',src='/js/index.js')

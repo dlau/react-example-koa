@@ -1,0 +1,26 @@
+{
+  "name": "react-example-koa",
+  "version": "0.0.0",
+  "description": "Example of a general react.js work flow/build process using koa to serve pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daryl Lau daryl@weak.io",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "~0.4.0",
+    "browserify": "~3.30.1",
+    "reactify": "~0.7.0",
+    "envify": "~0.2.0",
+    "react": "~0.8.0",
+    "gulp": "~3.5.2",
+    "gulp-browserify": "~0.4.5",
+    "gulp-react": "~0.1.2",
+    "gulp-nodemon": "~0.1.2",
+    "co-views": "~0.2.0",
+    "koa-static": "~1.4.3",
+    "thunkify": "0.0.1",
+    "jade": "~1.1.5"
+  }
+}
