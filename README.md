@@ -12,6 +12,11 @@ This is meant to serve as a more concrete real world type example where the jsx 
 --
 `gulp dev`
 
+###Run:
+--
+`node --harmony-generators index.js`
+You will need node 0.11.x to run this with either the `harmony` flag or `harmony-generators` flag enabled
+
 ##Directory structure:
   - components/               [D]
    |  counter.js                 
