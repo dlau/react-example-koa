@@ -4,7 +4,7 @@
   "description": "Example of a general react.js work flow/build process using koa to serve pages",
   "main": "index.js",
   "scripts": {
-    "start": "node --harmony index.js",
+    "start": "node --harmony-generators index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daryl Lau daryl@weak.io",
