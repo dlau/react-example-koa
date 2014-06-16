@@ -2,7 +2,7 @@
 
 var React = require("react");
 
-module.exports = React.createClass({
+module.exports = React.createClass({displayName: 'exports',
   getInitialState : function(){
     return {
       count : this.props.count ? this.props.count : 0
@@ -16,7 +16,7 @@ module.exports = React.createClass({
   render : function(){
     return (
       React.DOM.div( {onClick:this.onClick}, 
-        " Count (Click to increment): ", this.state.count
+        "Count (Click to increment): ", this.state.count
       )
     )
   }
